@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    height: 100vh;
+    background: radial-gradient(rgb(231, 240, 103),rgb(189, 228, 248), rgb(19, 127, 182))
+}
+
+.container>div{
+    width: 45%;
+    height: 80vh;
+    box-shadow: 0 0 2px 2px #070707;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.container>div h2{
+    margin-bottom: 1rem;
+    text-align: center;
+    text-shadow: 0px 1px 2px black;
+}
+
+.card_container{
+    height: 90%;
+    width: 100%;
+}
+
+.total_card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    background-color: rgba(41, 228, 41, 0.649);
+    border-radius: 0.625rem;
+    box-shadow: 0 0 2px 2px #0d0d0d;
+}
+.total_card p{
+    padding: 0rem 1rem;
+    text-shadow: 0px 1px 2px black;
+}
+
+@media screen and (max-width: 978.5px) {
+    .container>div{
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 881.5px){
+    .container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .container>div{
+        width: 100%;
+    }
+
+    .card_container{
+        overflow-y: scroll;
+        padding: 0.2rem;
+        scrollbar.container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            height: 100vh;
+        }
+        
+        .container>div{
+            width: 45%;
+            height: 80vh;
+            box-shadow: 0 0 2px 2px #101010;
+            border-radius: 0.625rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+            overflow-y: scroll;
+            scrollbar-width: none;
+        }
+        
+        .container>div h2{
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .card_container{
+            height: 90%;
+            width: 100%;
+        }
+        
+        .total_card{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            font-size: 1.9rem;
+            font-weight: bold;
+            border-radius: 0.625rem;
+            box-shadow: 0 0 2px 2px #0e0e0e;
+        }
+        
+        @media screen and (max-width: 978.5px) {
+            .container>div{
+                width: 49%;
+            }
+        }
+        
+        @media screen and (max-width: 881.5px){
+            .container{
+                flex-direction: column;
+                gap: 1rem;
+            }
+        
+            .container>div{
+                width: 100%;
+            }
+        
+            .card_container{
+                overflow-y: scroll;
+                padding: 0.2rem;
+                scrollbar-width: none;
+            }
+        }
+        
+        @media screen and (max-width: 475.5px){
+            .container{
+                padding: 2rem 0.625rem;
+            }
+        }-width: none;
+    }
+}
+
+@media screen and (max-width: 475.5px){
+    .container{
+        padding: 2rem 0.625rem;
+    }
+}

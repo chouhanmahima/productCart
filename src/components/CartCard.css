@@ -1,0 +1,16 @@
+.cart_card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0rem 0rem; */
+    box-shadow: 0 0 2px 2px #0d0d0d;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 0.625rem;
+    margin-bottom: 1rem;
+    background-color: antiquewhite;
+}
+.cart_card p{
+    padding: 0.6rem 1rem;
+}
